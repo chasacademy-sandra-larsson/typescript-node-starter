@@ -13,7 +13,7 @@ Ett enkelt startprojekt för TypeScript med Node.js, med moderna best practices 
 
 ```bash
 # Klona repot
-git clone https://github.com/dittanvändarnamn/typescript-node-starter.git
+git clone https://github.com/chasacademy-sandra-larsson/typescript-node-starter.git
 cd typescript-node-starter
 
 # Installera beroenden

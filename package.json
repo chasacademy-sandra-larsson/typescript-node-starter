@@ -1,0 +1,28 @@
+{
+  "name": "typescript-node-starter",
+  "version": "1.0.0",
+  "description": "Ett enkelt startprojekt för TypeScript med Node.js",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [
+    "typescript",
+    "nodejs",
+    "starter",
+    "template"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@tsconfig/node20": "^20.1.4",
+    "@types/node": "^22.10.2",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}
