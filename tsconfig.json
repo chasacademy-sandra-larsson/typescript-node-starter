@@ -3,14 +3,31 @@
   "compilerOptions": {
     "outDir": "./dist",
     "rootDir": "./src",
+    
+    // Module Settings
+    "module": "nodenext",
+    "target": "esnext",
+    "moduleDetection": "force",
+    "isolatedModules": true,
+    
+    // Output Options
     "sourceMap": true,
     "declaration": true,
     "declarationMap": true,
+    
+    // Type Checking
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "exactOptionalPropertyTypes": true,
+    
+    // Interop & Compatibility
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
-    "strict": true,
     "skipLibCheck": true,
-    "resolveJsonModule": true
+    "resolveJsonModule": true,
+    
+    // Optimization
+    "types": []
   },
   "include": ["src/**/*"],
   "exclude": ["node_modules", "dist"]
